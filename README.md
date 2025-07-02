@@ -14,6 +14,20 @@
 
 ---
 
+## 📚 Documentação útil
+
+- [🔐 Política de Segurança](SECURITY.md)
+- [🤝 Contribuindo com o projeto](CONTRIBUTING.md)
+- [🗺️ Roadmap](ROADMAP.md)
+
+---
+
+<p align="center">
+  Feito com 💻 + ☁️ por <strong>Walkerson Souza</strong>
+</p>
+
+---
+
 ### 📦 Badges
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
