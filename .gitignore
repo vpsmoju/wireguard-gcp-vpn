@@ -1,0 +1,28 @@
+# Chaves privadas e arquivos sensíveis
+*.key
+*.pub
+*.conf
+
+# Logs e backups
+*.log
+*.bak
+*.tar.gz
+*.zip
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ambientes virtuais
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Gerado por VSCode (caso use)
+.vscode/
+
+# Arquivos Markdown auxiliares temporários
+*.md~*

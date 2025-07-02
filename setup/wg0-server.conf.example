@@ -1,0 +1,14 @@
+[Interface]
+PrivateKey = SUA_CHAVE_PRIVADA
+Address = 10.0.0.1/24
+ListenPort = 51820
+SaveConfig = true
+
+# Roteamento NAT
+PostUp = iptables -A FORWARD -i %i -j ACCEPT; iptables -t nat -A POSTROUTING -o ens4 -j MASQUERADE
+PostDown = iptables -D FORWARD -i %i -j ACCEPT; iptables -t nat -D POSTROUTING -o ens4 -j MASQUERADE
+
+[Peer]
+# Substitua pela chave pública do cliente
+PublicKey = CHAVE_PUBLICA_DO_CLIENTE
+AllowedIPs = 10.0.0.2/32

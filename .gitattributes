@@ -1,0 +1,23 @@
+# Trata finais de linha para evitar problemas no Windows/Linux
+* text=auto eol=lf
+
+# Scripts de shell e configurações
+*.sh text eol=lf
+*.conf text eol=lf
+
+# Arquivos Markdown e texto
+*.md text
+*.txt text
+
+# Imagens e binários - não aplicar diffs
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Arquivos do Python
+*.py text
+*.py[cod] text
+
+# Ignora arquivos de logs para merge/diff
+*.log binary
